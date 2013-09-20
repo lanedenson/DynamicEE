@@ -89,7 +89,7 @@ class Dynamicee_ft extends EE_Fieldtype {
 	{
 		$return = ''; // tag replacement string
 
-		if(($decoded = json_decode($data)) !== FALSE)
+		if((($decoded = json_decode($data)) !== FALSE) && is_object($decoded))
 		{
 			/* channel param */
 			if(!empty($decoded->channel_ids))
