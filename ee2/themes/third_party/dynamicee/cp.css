@@ -1,0 +1,23 @@
+
+.dynamicee-menu-wrap{
+	float: left;
+	width: auto;
+}
+
+.dynamicee-menu-wrap + .dynamicee-menu-wrap{
+	margin-left: 10px;
+}
+
+.deactivated .deactivated{
+	filter: alpha(opacity=40);
+	opacity: .4;
+	-webkit-opacity: .4;
+	-moz-opacity: .4;
+}
+
+.dynamicee-menu-wrap select[multiple]{
+	font-size: 1.1em;
+	height: 400px;
+	padding: 5px;
+	width: 400px;
+}
